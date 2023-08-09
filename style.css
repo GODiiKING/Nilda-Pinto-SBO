@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*---logo and menu design---*/
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/Nilda\ Pinto\ background.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: red;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+/*---textbox design---*/
+.text-box{
+    width: 90%;
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: white;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid red;
+    background: red;
+    transition: 1s;
+}
+/*----opening text----*/
+.para-2{
+    text-align: center;
+}
+/*----course----*/
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.row{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0.2);
+}
+.para-1{
+    color:black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    text-align: center;
+}
+/*----campus---*/
+
+.campus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.campus-col img{
+    width: 100%;
+    display: block;
+    
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+/*-----facilities----*/
+
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.facilities-col{
+    flex-basis: 31%;
+    border-radius: 10p;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.facilities-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.Facilities{
+    text-align: center;
+}
+.facilities-col p{
+    padding: 0;
+}
+.facilities-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+/*-------call to action---*/
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/school\ front\ view.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+
+}
+.cta h1{
+    color: white;
+    margin-bottom: 40px;
+    padding: 0;
+    
+}
+/*-------footer---*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.fa-heart-o{
+    color: red;
+}
+/*-----about us page-----*/
+.sub-header{
+    min-height: 50vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/Nilda\ Pinto\ background.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.sub-header h1{
+    color: white;
+    text-align: center;
+}
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-col{
+        flex-basis: 48;
+        padding: 30px 2px;
+}
+.about-col img{
+        width: 50%;
+}
+.about-col h1{
+        padding-top: 0;
+        text-align: center;
+}
+.about-col p{
+        padding: 15px 0 25px;
+        text-align: left;
+}
+.about-col ul li{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+}
+.steps{
+    text-align: center;
+}
+
+/*----blog-content----*/
+.blog-content{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.blog{
+    flex-basis: 65%;
+}
+.blog img{
+    width: 100%;
+}
+.blog h2{
+    color:black;
+    font-weight: 600;
+    margin: 30px 0;
+    text-align: center;
+}
+.blog p{
+    color:black;
+    padding: 0;
+}
+.comment-box{
+    border:  1px solid lightgray;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+.comment-box h3{
+    text-align: left;
+}
+.comment-from input, comment-from textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: wheat;
+}
+.comment-from button{
+    margin: 10px 0;
+    color:black;
+}
+/*-------contact us page---*/
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80 px 0;
+}
+.location iframe{
+    width: 100%;
+}
+.contact-rol{
+    border:  1px solid lightgray;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+.contact-rol input, comment-from textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: wheat;
+}
+.contact-rol button{
+    margin: 10px 0;
+    color:black;
+}
+.contact-img{
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+   
+
+
+
+
+
+
