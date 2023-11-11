@@ -11,4 +11,4 @@ Only using HTML and CSS. This is my first-ever project. In which we have 100% cr
 I'm a Junior Web Developer and used to be in MBO Niveau 3, Employee Management (ICT) at Nilda Pinto SBO from 2020 - 2022...
 
 ## :mortar_board: What i learned
-Since this is a school project which i had to self-taught myself the basics of HTML and CSS by surfing website templates designed by YouTube for ideas for what I could do by using concepts from How To Make Website Using HTML & CSS | Full Responsive Multi Page Website Design Step by Step from GreatStack.
+Since this is a school project which i had to self-taught myself the basics of HTML and CSS by surfing website templates designed by YouTube for ideas for what I could do by using concepts from How To Make Website Using HTML & CSS | Full Responsive Multi Page Website Design Step by Step from [GreatStack](https://www.youtube.com/watch?v=oYRda7UtuhA&list=PLjwm_8O3suyP5kGKmwS_DM0Hs1j7fshi5&index=1). 
