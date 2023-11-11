@@ -25,3 +25,6 @@ Currently using (version 1.84) of Visual Studio Code but was made using a downgr
 
 ## :computer: Usage
 Provide instructions and code examples.
+
+## :bookmark_tabs: License
+
