@@ -9,6 +9,8 @@ Only using HTML and CSS. This is my first-ever project. In which we have 100% cr
 
 ## :mag: Table of Contents
 1. [Nilda Pinto SBO](#nilda-pinto-sbo)
+2. [About Me](#about-me)
+3. [What i learned](#what-i-learned)
 
 ## 🚀 About Me
 I'm a Junior Web Developer and used to be in MBO Niveau 3, Employee Management (ICT) at Nilda Pinto SBO from 2020 - 2022...
