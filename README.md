@@ -13,15 +13,16 @@ Only using HTML and CSS. This is my first-ever project. In which we have 100% cr
 3. [What I learned](#what-i-learned)
 4. [Installation](#installation)
 5. [Usage](#usage)
+6. [License](#license)
 
 ## 🚀 About Me
 I'm a Junior Web Developer and used to be in MBO Niveau 3, Employee Management (ICT) at Nilda Pinto SBO from 2020 - 2022...
 
 ## :mortar_board: What I learned
-Since this is a school project which i had to self-taught myself the basics of HTML and CSS by surfing website templates designed by YouTube for ideas for what I could do by using concepts from How To Make Website Using HTML & CSS | Full Responsive Multi Page Website Design Step by Step from [GreatStack](https://www.youtube.com/watch?v=oYRda7UtuhA&list=PLjwm_8O3suyP5kGKmwS_DM0Hs1j7fshi5&index=1). 
+Since this is a school project I had to self-taught myself the basics of HTML and CSS by surfing website templates designed by YouTube for ideas for what I could do by using concepts from How To Make Website Using [HTML](https://www.w3schools.com/html/) & [CSS](https://www.w3schools.com/Css/) | Full Responsive Multi Page Website Design Step by Step from [GreatStack](https://www.youtube.com/watch?v=oYRda7UtuhA&list=PLjwm_8O3suyP5kGKmwS_DM0Hs1j7fshi5&index=1). 
 
 ## :open_file_folder: Installation
-Currently using (version 1.84) of Visual Studio Code but was made using a downgraded update of VSCODE.
+Currently using [(version 1.84)](https://code.visualstudio.com/updates/v1_84) of [Visual Studio Code](https://code.visualstudio.com/) but was made using a downgraded update of VSCODE.
 
 ## :computer: Usage
 Provide instructions and code examples.
