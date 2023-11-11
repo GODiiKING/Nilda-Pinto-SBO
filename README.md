@@ -7,6 +7,9 @@ Nilda Pinto SBO is a public secondary vocational school in Curaçao that offers 
 Had to build a Nilda Pinto SBO website using the school assignment assets only.
 Only using HTML and CSS. This is my first-ever project. In which we have 100% creativity in design and code.
 
+## :mag: Table of Contents
+1. [Nilda Pinto SBO](#NildaPintoSBO)
+
 ## 🚀 About Me
 I'm a Junior Web Developer and used to be in MBO Niveau 3, Employee Management (ICT) at Nilda Pinto SBO from 2020 - 2022...
 
