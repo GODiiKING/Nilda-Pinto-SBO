@@ -12,6 +12,7 @@ Only using HTML and CSS. This is my first-ever project. In which we have 100% cr
 2. [About Me](#about-me)
 3. [What I learned](#what-i-learned)
 4. [Installation](#installation)
+5. [Usage](#usage)
 
 ## 🚀 About Me
 I'm a Junior Web Developer and used to be in MBO Niveau 3, Employee Management (ICT) at Nilda Pinto SBO from 2020 - 2022...
@@ -21,3 +22,6 @@ Since this is a school project which i had to self-taught myself the basics of H
 
 ## :open_file_folder: Installation
 Currently using (version 1.84) of Visual Studio Code but was made using a downgraded update of VSCODE.
+
+## :computer: Usage
+Provide instructions and code examples.
