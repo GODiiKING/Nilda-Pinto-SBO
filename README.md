@@ -28,4 +28,4 @@ Currently using [(version 1.84)](https://code.visualstudio.com/updates/v1_84) of
 Provide instructions and code examples.
 
 ## :bookmark_tabs: License
-
+[MIT License](https://choosealicense.com/licenses/mit/)
