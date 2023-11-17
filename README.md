@@ -27,6 +27,10 @@ Since this is a school project I had to self-taught myself the basics of HTML an
 
 ## Installation
 Currently using [(version 1.84)](https://code.visualstudio.com/updates/v1_84) of [Visual Studio Code](https://code.visualstudio.com/) but was made using a downgraded update of VSCODE.
+* Install
+  ```
+  Visual Studio Code
+  ```
 
 ## Usage
 Provide instructions and code examples.
