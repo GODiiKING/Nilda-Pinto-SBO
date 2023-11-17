@@ -1,4 +1,6 @@
-[![swift-version](https://img.shields.io/badge/swift-5.1-brightgreen.svg)](https://www.linkedin.com/in/dinesh-van-putten-69441b18a/)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 <a name="readme-top"></a>
 ## Nilda Pinto SBO
 [Nilda Pinto SBO](https://www.facebook.com/NildaPintoSBOSteenrijk/) is a public secondary vocational school in Curaçao that offers a variety of programs to help students achieve their academic and professional goals. Whether you want to pursue a career in business, technology, health, or hospitality, Nilda Pinto SBO has the right course for you. With two modern campuses and experienced teachers, Nilda Pinto SBO provides a stimulating and supportive learning environment. Nilda Pinto SBO also collaborates with European partners to enrich its educational offerings and foster international exchange.
