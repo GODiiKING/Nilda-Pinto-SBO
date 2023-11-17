@@ -9,13 +9,13 @@ Only using HTML and CSS. This is my first-ever project. In which we have 100% cr
 
 ## :mag: Table of Contents
 1. [Nilda Pinto SBO](#nilda-pinto-sbo)
-2. [About Me](#🚀-about-me)
-3. [What I learned](#what-i-learned)
+2. [About Me](#about-me)
+3. [What I learned](#:mortar_board:-what-i-learned)
 4. [Installation](#installation)
 5. [Usage](#usage)
 6. [License](#license)
 
-# 🚀 About Me
+# About Me
 I'm a Junior Web Developer and used to be in [MBO Niveau 3](https://www.government.nl/topics/secondary-vocational-education-mbo-and-tertiary-higher-education/secondary-vocational-education-mbo), Employee Management (ICT) at Nilda Pinto SBO from 2020 - 2022...
 
 ## :mortar_board: What I learned
