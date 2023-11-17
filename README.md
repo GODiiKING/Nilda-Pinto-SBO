@@ -1,3 +1,4 @@
+
 <a name="readme-top"></a>
 ## Nilda Pinto SBO
 [Nilda Pinto SBO](https://www.facebook.com/NildaPintoSBOSteenrijk/) is a public secondary vocational school in Curaçao that offers a variety of programs to help students achieve their academic and professional goals. Whether you want to pursue a career in business, technology, health, or hospitality, Nilda Pinto SBO has the right course for you. With two modern campuses and experienced teachers, Nilda Pinto SBO provides a stimulating and supportive learning environment. Nilda Pinto SBO also collaborates with European partners to enrich its educational offerings and foster international exchange.
@@ -14,7 +15,9 @@ Only using HTML and CSS. This is my first-ever project. In which we have 100% cr
 4. [Installation](#installation)
 5. [Usage](#usage)
 6. [License](#license)
-7. 7[Roadmap](#roadmap)
+7. [Roadmap](#roadmap)
+8. [Contact](#contact)
+9. [Acknowledgments](#acknowledgments)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -55,3 +58,22 @@ Provide instructions and code examples.
 ## License
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 [MIT License](https://choosealicense.com/licenses/mit/)
+
+<!-- CONTACT -->
+## Contact
+
+Dinesh van Putten - [@Linkedln](https://www.linkedin.com/in/dinesh-van-putten-69441b18a/) - dineshvanputten@outlook.com
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+List of resources I find helpful and would like to give credit to.
+
+* [Choose an Open Source License](https://choosealicense.com)
+* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+* [Font Awesome](https://fontawesome.com)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
