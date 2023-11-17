@@ -20,6 +20,8 @@ Only using HTML and CSS. This is my first-ever project. In which we have 100% cr
 ## About Me
 I'm a Junior Web Developer and used to be in [MBO Niveau 3](https://www.government.nl/topics/secondary-vocational-education-mbo-and-tertiary-higher-education/secondary-vocational-education-mbo), Employee Management (ICT) at Nilda Pinto SBO from 2020 - 2022...
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## What I learned
 Since this is a school project I had to self-taught myself the basics of HTML and CSS by surfing website templates designed by YouTube for ideas for what I could do by using concepts from How To Make Website Using [HTML](https://www.w3schools.com/html/) & [CSS](https://www.w3schools.com/Css/) | Full Responsive Multi Page Website Design Step by Step from [GreatStack](https://www.youtube.com/watch?v=oYRda7UtuhA&list=PLjwm_8O3suyP5kGKmwS_DM0Hs1j7fshi5&index=1). 
 
