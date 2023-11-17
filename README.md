@@ -15,7 +15,7 @@ Only using HTML and CSS. This is my first-ever project. In which we have 100% cr
 5. [Usage](#usage)
 6. [License](#license)
 
-# About Me
+# 🚀 About Me
 I'm a Junior Web Developer and used to be in [MBO Niveau 3](https://www.government.nl/topics/secondary-vocational-education-mbo-and-tertiary-higher-education/secondary-vocational-education-mbo), Employee Management (ICT) at Nilda Pinto SBO from 2020 - 2022...
 
 ## :mortar_board: What I learned
