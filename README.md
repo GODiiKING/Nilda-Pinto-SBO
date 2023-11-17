@@ -1,7 +1,14 @@
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white(https://code.visualstudio.com/))
+<div align="center">
+  
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+</div>
+
 <a name="readme-top"></a>
+
+<div align="center">
+  
 ## Nilda Pinto SBO
 [Nilda Pinto SBO](https://www.facebook.com/NildaPintoSBOSteenrijk/) is a public secondary vocational school in Curaçao that offers a variety of programs to help students achieve their academic and professional goals. Whether you want to pursue a career in business, technology, health, or hospitality, Nilda Pinto SBO has the right course for you. With two modern campuses and experienced teachers, Nilda Pinto SBO provides a stimulating and supportive learning environment. Nilda Pinto SBO also collaborates with European partners to enrich its educational offerings and foster international exchange.
 
@@ -9,6 +16,7 @@
 
 Had to [build a Nilda Pinto SBO website](https://nildapinto-sbo.weebly.com/) using the school assignment assets only.
 Only using HTML and CSS. This is my first-ever project. In which we have 100% creativity in design and code.
+</div>
 
 ## :mag: Table of Contents
 1. [Nilda Pinto SBO](#nilda-pinto-sbo)
