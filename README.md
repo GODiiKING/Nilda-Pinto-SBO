@@ -14,6 +14,7 @@ Only using HTML and CSS. This is my first-ever project. In which we have 100% cr
 4. [Installation](#installation)
 5. [Usage](#usage)
 6. [License](#license)
+7. 7[Roadmap](#roadmap)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -40,5 +41,17 @@ Provide instructions and code examples.
 > 
 > link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 
+<!-- ROADMAP -->
+## Roadmap
+
+- [x] Add Changelog
+- [x] Add back to top links
+- [ ] Add Additional Templates w/ Examples
+- [ ] Add "components" document to easily copy & paste sections of the readme
+- [ ] Multi-language Support
+    - [ ] English
+    - [ ] Dutch
+
 ## License
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 [MIT License](https://choosealicense.com/licenses/mit/)
