@@ -99,6 +99,8 @@ List of resources I find helpful and would like to give credit to.
 * [Choose an Open Source License](https://choosealicense.com)
 * [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
 * [Font Awesome](https://fontawesome.com)
+* [MBO Niveau 3](https://www.government.nl/topics/secondary-vocational-education-mbo-and-tertiary-higher-education/secondary-vocational-education-mbo)
+* [GreatStack](https://www.youtube.com/watch?v=oYRda7UtuhA&list=PLjwm_8O3suyP5kGKmwS_DM0Hs1j7fshi5&index=1)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
