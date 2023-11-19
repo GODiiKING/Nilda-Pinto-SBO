@@ -26,11 +26,9 @@ Only using HTML and CSS. This is my first-ever project. In which we have 100% cr
 2. [About Me](#about-me)
 3. [What I learned](#what-i-learned)
 4. [Installation](#installation)
-5. [Usage](#usage)
-6. [License](#license)
-7. [Roadmap](#roadmap)
-8. [Contact](#contact)
-9. [Acknowledgments](#acknowledgments)
+5. [License](#license)
+6. [Contact](#contact)
+7. [Acknowledgments](#acknowledgments)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -53,30 +51,21 @@ Currently using [(version 1.84)](https://code.visualstudio.com/updates/v1_84) of
   ```
   Visual Studio Code
   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Usage
-Provide instructions and code examples.
-> link rel="preconnect" href="https://fonts.googleapis.com">
-> 
-> link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-> 
-> link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add HTML
-- [x] Add CSS
-- [x] Add Images
+- [x] Download `Visual Studio Code`
+- [x] Make `New Text File`
+- [x] Called `Nilda Pinto SBO Home Page.html` 
+- [x] Called `Nilda Pinto SBO About Page.html` 
+- [x] Called `Nilda Pinto SBO Course Page.html`
+- [x] Called `Nilda Pinto SBO Blog Page.html` 
+- [x] Called `Nilda Pinto SBO Contact Page.html` 
+- [x] Make `style.css`
+- [x] Make a folder called `images`
 - [ ] Multi-language Support
     - [ ] English
     - [ ] Dutch
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!--License-->
 ## License
