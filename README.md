@@ -21,7 +21,7 @@ Only using HTML and CSS. This is my first-ever project. In which we have 100% cr
 </div>
 
 <!--Table of Contents-->
-## :mag: Table of Contents
+Table of Contents
 1. [Nilda Pinto SBO](#nilda-pinto-sbo)
 2. [About Me](#about-me)
 3. [What I learned](#what-i-learned)
