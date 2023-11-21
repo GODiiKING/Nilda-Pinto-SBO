@@ -76,7 +76,14 @@ Distributed under the [MIT License](https://choosealicense.com/licenses/mit/). S
 <!-- CONTACT -->
 ## Contact
 
-Dinesh van Putten - [@Linkedln](https://www.linkedin.com/in/dinesh-van-putten-69441b18a/) - dineshvanputten@outlook.com
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/godiiking" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="godiiking" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/dinesh-van-putten-69441b18a/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dinesh van putten" height="30" width="40" /></a>
+<a href="https://instagram.com/god_no_kami" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="god_no_kami" height="30" width="40" /></a>
+</p>
+
+Dinesh van Putten - 📫 How to reach me **dineshvanputten@outlook.com**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
