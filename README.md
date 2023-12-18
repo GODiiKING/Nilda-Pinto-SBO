@@ -6,7 +6,6 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 </div>
 
-<a name="readme-top"></a>
 
 <!--Title-->
 <div align="center">
@@ -19,6 +18,8 @@
 Had to [build a Nilda Pinto SBO website](https://nildapinto-sbo.weebly.com/) using the school assignment assets only.
 Only using HTML and CSS. This is my first-ever project. In which we have 100% creativity in design and code.
 </div>
+
+<a name="readme-top"></a>
 
 <!--Table of Contents-->
 ## Table of Contents
