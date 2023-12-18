@@ -27,9 +27,10 @@ Only using HTML and CSS. This is my first-ever project. In which we have 100% cr
 2. [About Me](#about-me)
 3. [What I learned](#what-i-learned)
 4. [Installation](#installation)
-5. [License](#license)
-6. [Contact](#contact)
-7. [Acknowledgments](#acknowledgments)
+5. [Walkthrough](#walkthrough)
+6. [License](#license)
+7. [Contact](#contact)
+8. [Acknowledgments](#acknowledgments)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
