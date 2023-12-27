@@ -1,4 +1,4 @@
-<!--badges-->
+s<!--badges-->
 <div align="center">
   
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
@@ -70,7 +70,7 @@ Currently using [(version 1.84)](https://code.visualstudio.com/updates/v1_84) of
 
 <!--Walkthrough-->
 ## Walkthrough
-This is a walkthrough that guides users that guides
+This is a walkthrough that guides users that guides u
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
