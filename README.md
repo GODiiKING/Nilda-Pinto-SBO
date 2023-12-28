@@ -70,7 +70,7 @@ Currently using [(version 1.84)](https://code.visualstudio.com/updates/v1_84) of
 
 <!--Walkthrough-->
 ## Walkthrough
-This is a walkthrough that guides users that guides use
+This is a walkthrough that guides users that guides user
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
