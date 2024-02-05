@@ -70,7 +70,7 @@ Currently using [(version 1.84)](https://code.visualstudio.com/updates/v1_84) of
 
 <!--Walkthrough-->
 ## Walkthrough
-This is a walkthrough that guides users that guides users through the process of how to make the Nilda Pinto SBO. Walkthroughs can be more complex and detailed depending on the software and the task at hand. They are designed to help users complete a process step-by-step and ensure th
+This is a walkthrough that guides users that guides users through the process of how to make the Nilda Pinto SBO. Walkthroughs can be more complex and detailed depending on the software and the task at hand. They are designed to help users complete a process step-by-step and ensure tha
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
