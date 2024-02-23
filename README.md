@@ -77,7 +77,7 @@ This is a walkthrough that guides users that guides users through the process of
 
 <!--Step-- 1-->
 > Step 1
-##### Add the `
+##### Add the `<
 
 <!--License-->
 ## License
