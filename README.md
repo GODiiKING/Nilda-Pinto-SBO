@@ -81,7 +81,7 @@ This is a walkthrough that guides users that guides users through the process of
 
 ```
 *{
-  margin: 0
+  margin: 0;
 
 <!--License-->
 ## License
