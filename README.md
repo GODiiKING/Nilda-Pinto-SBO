@@ -88,7 +88,7 @@ This is a walkthrough that guides users that guides users through the process of
 ```
 
 
-<p align="righ
+<p align="right
 
 <!--License-->
 ## License
