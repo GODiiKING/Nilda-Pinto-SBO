@@ -75,7 +75,7 @@ This is a walkthrough that guides users that guides users through the process of
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!--Step-- 1-->
+<!--Step 1-->
 > Step 1
 ##### Add the `<!DOCTYPE html>` tag, and an `html` element with a `lang` attribute of `en` (Step 1)
 
@@ -90,7 +90,7 @@ This is a walkthrough that guides users that guides users through the process of
 
 <p align="right">(<a href="#readme-top">back top</a>)</p>
 
-<!--Step 2--
+<!--Step 2-->
 
 <p align="right">(<a href="#readme-top">back top</a>)</p>
 
