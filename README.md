@@ -90,7 +90,7 @@ This is a walkthrough that guides users that guides users through the process of
 
 <p align="right">(<a href="#readme-top">back top</a>)</p>
 
-<!--Step 1--
+<!--Step 2--
 
 <p align="right">(<a href="#readme-top">back top</a>)</p>
 
