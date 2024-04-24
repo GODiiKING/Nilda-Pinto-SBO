@@ -92,7 +92,7 @@ This is a walkthrough that guides users that guides users through the process of
 
 <!--Step 2-->
 > Step 2
-##### Add a `head` element within the `html` el
+##### Add a `head` element within the `html` ele
 
 <p align="right">(<a href="#readme-top">back top</a>)</p>
 
