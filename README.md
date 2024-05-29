@@ -100,7 +100,7 @@ This is a walkthrough that guides users that guides users through the process of
 </head>
 ```
 
-<p align="right">(<a hr
+<p align="right">(<a hre
 
 <p align="right">(<a href="#readme-top">back top</a>)</p>
 
