@@ -1,4 +1,4 @@
-8<!--badges-->
+<!--badges-->
 <div align="center">
   
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
@@ -118,7 +118,7 @@ This is a walkthrough that guides users that guides users through the process of
 
 <p align="right">(<a href=#readme-top">back top</a>)/p>
 
-<p align="right">(<a href=#readme-
+<p align="right">(<a href=#readme-t
 
 <!--License-->
 ## License
