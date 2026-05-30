@@ -1,42 +1,64 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-/*---logo and menu design---*/
-.header{
+
+/*--- Set page background to black and base text to white ---*/
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/*--- Unique Home Page Only: Gets the background image ---*/
+.header {
     min-height: 100vh;
     width: 100%;
-    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/Nilda\ Pinto\ background.png);
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url('images/Nilda Pinto background.png');
     background-position: center;
     background-size: cover;
     position: relative;
 }
-nav{
+
+/*--- Unique Sub-Pages: Absolutely NO image option ---*/
+.sub-header {
+    min-height: 15vh; /* Shrunk down so it just cleanly fits your logo and navigation */
+    width: 100%;
+    background: #000000; /* Solid background color only */
+    position: relative;
+}
+
+/*--- Navigation Bar (Works for both) ---*/
+nav {
     display: flex;
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
 }
-nav img{
+
+nav img {
     width: 150px;
 }
-.nav-links{
+
+.nav-links {
     flex: 1;
     text-align: right;
 }
-.nav-links ul li{
+
+.nav-links ul li {
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
 }
-.nav-links ul li a{
+
+.nav-links ul li a {
     color: white;
     text-decoration: none;
     font-size: 13px;
 }
-.nav-links ul li::after{
+
+.nav-links ul li::after {
     content: '';
     width: 0%;
     height: 2px;
@@ -45,28 +67,33 @@ nav img{
     margin: auto;
     transition: 0.5s;
 }
-.nav-links ul li:hover::after{
+
+.nav-links ul li:hover::after {
     width: 100%;
 }
+
 /*---textbox design---*/
-.text-box{
+.text-box {
     width: 90%;
-    color:white;
+    color: white;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     text-align: center;
 }
-.text-box h1{
+
+.text-box h1 {
     font-size: 62px;
 }
-.text-box p{
+
+.text-box p {
     margin: 10px 0 40px;
     font-size: 14px;
     color: white;
 }
-.hero-btn{
+
+.hero-btn {
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -76,85 +103,104 @@ nav img{
     background: transparent;
     position: relative;
     cursor: pointer;
+    margin: 0 15px;
 }
-.hero-btn:hover{
+
+.hero-btn:hover {
     border: 1px solid red;
     background: red;
     transition: 1s;
 }
+
 /*----opening text----*/
-.para-2{
+.para-2 {
     text-align: center;
+    color: white; /* Changed from default black to white */
 }
+
 /*----course----*/
-.course{
+.course {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 35px;
+    color: white; /* Added to keep headings white */
 }
-h1{
+
+h1 {
     font-size: 36px;
     font-weight: 600;
+    color: white; /* Explicitly white for dark backgrounds */
 }
-p{
-    color: black;
+
+p {
+    color: white; /* Changed from black to white */
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
 }
-.row{
-    margin: 5%;
+
+.row {
+    margin: 2px 0; 
     display: flex;
     justify-content: space-between;
 }
-.course-col{
+
+.course-col {
     flex-basis: 31%;
-    background: #fff3f3;
+    background: #111111; /* Changed from light pink #fff3f3 to dark gray for contrast */
     border-radius: 10px;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
+    color: white;
 }
-h3{
+
+h3 {
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
+    color: white; /* Explicitly white */
 }
-.course-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0.2);
+
+.course-col:hover {
+    box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.2); /* Changed shadow to light glow for dark mode */
 }
-.para-1{
-    color:black;
+
+.para-1 {
+    color: white; /* Changed from black to white */
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
     text-align: center;
 }
-/*----campus---*/
 
-.campus{
+/*----campus---*/
+.campus {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 1px;
+    color: white;
 }
-.campus-col{
+
+.campus-col {
     flex-basis: 32%;
     border-radius: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     position: relative;
     overflow: hidden;
 }
-.campus-col img{
+
+.campus-col img {
     width: 100%;
     display: block;
-    
 }
-.layer{
+
+.layer {
     background: transparent;
     height: 100%;
     width: 100%;
@@ -163,185 +209,224 @@ h3{
     left: 0;
     transition: 0.5s;
 }
-/*-----facilities----*/
 
-.facilities{
+/*-----facilities----*/
+.facilities {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    color: white;
 }
-.facilities-col{
+
+.facilities-col {
     flex-basis: 31%;
-    border-radius: 10p;
+    border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
 }
-.facilities-col img{
+
+.facilities-col img {
     width: 100%;
     border-radius: 10px;
 }
-.Facilities{
+
+.Facilities {
     text-align: center;
 }
-.facilities-col p{
+
+.facilities-col p {
     padding: 0;
+    color: white; /* Explicitly white */
 }
-.facilities-col h3{
+
+.facilities-col h3 {
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: left;
+    color: white; /* Explicitly white */
 }
+
 /*-------call to action---*/
-.cta{
-    margin: 100px auto;
+.cta {
+    margin: 10px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/school\ front\ view.png);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/school\ front\ view.png);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
     text-align: center;
-    padding: 100px 0;
-
+    padding: 100px 0; 
 }
-.cta h1{
+
+.cta h1 {
     color: white;
     margin-bottom: 40px;
     padding: 0;
-    
 }
+
 /*-------footer---*/
-.footer{
+.footer {
     width: 100%;
     text-align: center;
     padding: 30px 0;
+    color: white; /* Explicitly white */
 }
-.fa-heart-o{
+
+.fa-heart-o {
     color: red;
 }
-/*-----about us page-----*/
-.sub-header{
-    min-height: 50vh;
-    width: 100%;
-    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/Nilda\ Pinto\ background.png);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
-.sub-header h1{
+
+/*-----about us page elements-----*/
+.sub-header h1 {
     color: white;
     text-align: center;
+    padding-bottom: 15px;
 }
-.about-us{
+
+.about-us {
     width: 80%;
     margin: auto;
-    padding-top: 80px;
+    padding-top: 1px;
     padding-bottom: 50px;
+    color: white;
 }
-.about-col{
-        flex-basis: 48;
-        padding: 30px 2px;
+
+.about-col {
+    flex-basis: 48%;
+    padding: 30px 2px;
 }
-.about-col img{
-        width: 50%;
+
+.about-col img {
+    width: 50%;
 }
-.about-col h1{
-        padding-top: 0;
-        text-align: center;
+
+.about-col h1 {
+    padding-top: 0;
+    text-align: center;
+    color: white;
 }
-.about-col p{
-        padding: 15px 0 25px;
-        text-align: left;
+
+.about-col p {
+    padding: 15px 0 25px;
+    text-align: left;
+    color: white; /* Explicitly white */
 }
-.about-col ul li{
-        font-size: 14px;
-        font-weight: 300;
-        line-height: 22px;
+
+.about-col ul li {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    color: white; /* Explicitly white */
 }
-.steps{
+
+.steps {
     text-align: center;
 }
 
 /*----blog-content----*/
-.blog-content{
+.blog-content {
     width: 80%;
     margin: auto;
     padding: 60px 0;
+    color: white;
 }
-.blog{
+
+.blog {
     flex-basis: 65%;
 }
-.blog img{
+
+.blog img {
     width: 100%;
 }
-.blog h2{
-    color:black;
+
+.blog h2 {
+    color: white; /* Changed from black to white */
     font-weight: 600;
     margin: 30px 0;
     text-align: center;
 }
-.blog p{
-    color:black;
+
+.blog p {
+    color: white; /* Changed from black to white */
     padding: 0;
 }
-.comment-box{
-    border:  1px solid lightgray;
+
+.comment-box {
+    border: 1px solid #333333; /* Darkened border for dark mode consistency */
     margin: 50px 0;
     padding: 10px 20px;
+    background: #111111; /* Dark background card fill */
 }
-.comment-box h3{
+
+.comment-box h3 {
     text-align: left;
+    color: white;
 }
-.comment-from input, comment-from textarea{
+
+.comment-from input, .comment-from textarea {
     width: 100%;
     padding: 10px;
     margin: 15px 0;
     box-sizing: border-box;
-    border: none;
+    border: 1px solid #444444;
     outline: none;
-    background: wheat;
+    background: #222222; /* Changed input background from light wheat to dark charcoal */
+    color: white; /* Form input text color set to white */
 }
-.comment-from button{
+
+.comment-from button {
     margin: 10px 0;
-    color:black;
+    color: white; /* Form text button inverted to white */
+    background: red; /* Added red accent background to match hero button actions */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
 }
+
 /*-------contact us page---*/
-.location{
+.location {
     width: 80%;
     margin: auto;
-    padding: 80 px 0;
+    padding: 80px 0;
 }
-.location iframe{
+
+.location iframe {
     width: 100%;
 }
-.contact-rol{
-    border:  1px solid lightgray;
+
+.contact-rol {
+    border: 1px solid #333333; /* Darkened outline */
     margin: 50px 0;
     padding: 10px 20px;
+    background: #111111; /* Dark container fill */
 }
-.contact-rol input, comment-from textarea{
+
+.contact-rol input, .contact-rol textarea {
     width: 100%;
     padding: 10px;
     margin: 15px 0;
     box-sizing: border-box;
-    border: none;
+    border: 1px solid #444444;
     outline: none;
-    background: wheat;
+    background: #222222; /* Swapped light wheat input fill for dark mode charcoal */
+    color: white; /* Input writing set to white */
 }
-.contact-rol button{
+
+.contact-rol button {
     margin: 10px 0;
-    color:black;
+    color: white; /* Button label set to white */
+    background: red;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
 }
-.contact-img{
+
+.contact-img {
     text-align: center;
 }
-.info{
+
+.info {
     text-align: center;
+    color: white;
 }
-   
-
-
-
-
-
-
