@@ -11,13 +11,63 @@ body {
 }
 
 /*--- Unique Home Page Only: Gets the background image ---*/
+/* Hero Banner Header with Parallax Effect */
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url('images/nildapintobackground.png');
-    background-position: center;
+    
+    /* Mixes a subtle dark tint over nildapintobackground.jpg so text and white logos stand out cleanly */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('images/nildapintobackground.png');
+    
+    /* The magic trio for smooth parallax */
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
+    
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Pushes nav to top, text-box to center/bottom area */
+}
+
+/* Make sure your welcome text contrasts perfectly over the graffiti asset */
+.text-box {
+    width: 90%;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 62px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+/* Mobile responsive override to ensure the layout remains smooth on mobile touchscreens */
+@media (max-width: 768px) {
+    .header {
+        background-attachment: scroll !important; /* Prevents background jumps on iOS/Android */
+        min-height: 70vh; /* Drops height slightly on smaller mobile viewports for better reading */
+    }
+    .text-box h1 {
+        font-size: 32px;
+    }
+    .text-box p {
+        font-size: 16px;
+    }
 }
 
 /*--- Unique Sub-Pages: Absolutely NO image option ---*/
