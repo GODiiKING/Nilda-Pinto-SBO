@@ -265,16 +265,83 @@ h3 {
     padding: 0;
 }
 
-/*-------footer---*/
+/*--- Footer Contact Cards Styling (Dark Mode Update) ---*/
 .footer {
-    width: 100%;
+    background-color: #000000; 
+    padding: 40px 20px;
     text-align: center;
-    padding: 30px 0;
-    color: white; /* Explicitly white */
+    font-family: 'Poppins', sans-serif;
 }
 
-.fa-heart-o {
-    color: red;
+.contact-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto 25px auto;
+}
+
+.contact-card {
+    background-color: #121212; /* Turned from white to dark charcoal */
+    border: 1px solid #333333;  /* Border added to distinguish against raw black background */
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 4px;
+    min-width: 210px;
+    flex: 1;
+    max-width: 240px;
+    text-align: left;
+}
+
+/* Rounded Colorful Icons */
+.icon-box {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 16px;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+/* Restrict the new images to fit perfectly within the circular icon boxes */
+.icon-box img {
+    width: 60%;  /* Keeps a nice breathing-room margin inside the circle */
+    height: 60%;
+    object-fit: contain;
+}
+
+/* Colored graphic circles stay vibrant */
+.location-icon { background-color: #000000; color: #d94d3c; } 
+.phone-icon    { background-color: #d12e6d; } 
+.email-icon    { background-color: #d12e6d; } 
+.facebook-icon { background-color: #000000; } 
+
+.card-details h3 {
+    font-size: 11px;
+    font-weight: 600;
+    color: #ffffff; /* Inverted header text to white */
+    margin: 0;
+    line-height: 1.2;
+}
+
+.card-details p {
+    font-size: 10px;
+    color: #b0b0b0; /* Light gray for clear subtext readability */
+    margin: 2px 0 0 0;
+    word-break: break-all;
+}
+
+.footer-text {
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+    letter-spacing: 0.5px;
 }
 
 /*-----about us page elements-----*/
@@ -325,23 +392,23 @@ h3 {
 /*--- Full Steps Grid Block Layout ---*/
 .steps {
     width: 100%;
-    margin: 60px auto 20px auto;
+    margin: 1px auto 10px auto;
 }
 
 .steps h2 {
     color: #ffffff;
-    font-size: 32px;
+    font-size: 22px; 
     font-weight: 600;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px; 
 }
 
 .step-row {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 40px;
+    gap: 20px; 
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px; 
 }
 
 /* Alternate positioning style */
@@ -351,7 +418,7 @@ h3 {
 
 /* Stylized step text and number tags */
 .step-number {
-    font-size: 2rem;
+    font-size: 1.25rem; 
     font-weight: 300;
     line-height: 1;
     display: flex;
@@ -361,9 +428,9 @@ h3 {
 }
 
 .step-number span {
-    font-size: 7rem;
+    font-size: 4rem; 
     font-weight: 700;
-    margin-top: -10px;
+    margin-top: -5px;
 }
 
 /* Graphic Color Palettes matched exactly from visual source */
@@ -372,11 +439,11 @@ h3 {
 .step-number.blue   { color: #5dade2; }
 
 .step-text p {
-    font-size: 15px;
+    font-size: 13px; 
     color: #e0e0e0;
-    line-height: 1.7;
+    line-height: 1.5; 
     padding: 0;
-    margin-bottom: 15px;
+    margin-bottom: 10px; 
 }
 
 .step-text p strong {
@@ -385,15 +452,15 @@ h3 {
 
 .step-list {
     list-style-type: disc;
-    margin-left: 25px;
-    margin-top: 10px;
+    margin-left: 18px; 
+    margin-top: 5px; 
 }
 
 .step-list li {
-    font-size: 15px;
+    font-size: 13px; 
     color: #e0e0e0;
-    margin-bottom: 6px;
-    line-height: 1.5;
+    margin-bottom: 4px; 
+    line-height: 1.4;
 }
 
 /* Full Width Structural Banners styling */
@@ -438,7 +505,7 @@ h3 {
 .blog-content {
     width: 80%;
     margin: auto;
-    padding: 60px 0;
+    padding: 1px;
     color: white;
 }
 
@@ -451,22 +518,22 @@ h3 {
 }
 
 .blog h2 {
-    color: white; /* Changed from black to white */
+    color: white; 
     font-weight: 600;
     margin: 30px 0;
     text-align: center;
 }
 
 .blog p {
-    color: white; /* Changed from black to white */
+    color: white; 
     padding: 0;
 }
 
 .comment-box {
-    border: 1px solid #333333; /* Darkened border for dark mode consistency */
+    border: 1px solid #333333; 
     margin: 50px 0;
     padding: 10px 20px;
-    background: #111111; /* Dark background card fill */
+    background: #111111; 
 }
 
 .comment-box h3 {
@@ -481,14 +548,14 @@ h3 {
     box-sizing: border-box;
     border: 1px solid #444444;
     outline: none;
-    background: #222222; /* Changed input background from light wheat to dark charcoal */
-    color: white; /* Form input text color set to white */
+    background: #222222; 
+    color: white; 
 }
 
 .comment-from button {
     margin: 10px 0;
-    color: white; /* Form text button inverted to white */
-    background: red; /* Added red accent background to match hero button actions */
+    color: white; 
+    background: red; 
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -506,10 +573,10 @@ h3 {
 }
 
 .contact-rol {
-    border: 1px solid #333333; /* Darkened outline */
-    margin: 50px 0;
+    border: 1px solid #333333; 
+    margin: 1px 0;
     padding: 10px 20px;
-    background: #111111; /* Dark container fill */
+    background: #111111; 
 }
 
 .contact-rol input, .contact-rol textarea {
@@ -519,13 +586,13 @@ h3 {
     box-sizing: border-box;
     border: 1px solid #444444;
     outline: none;
-    background: #222222; /* Swapped light wheat input fill for dark mode charcoal */
-    color: white; /* Input writing set to white */
+    background: #222222; 
+    color: white; 
 }
 
 .contact-rol button {
     margin: 10px 0;
-    color: white; /* Button label set to white */
+    color: white; 
     background: red;
     border: none;
     padding: 10px 20px;
@@ -540,3 +607,437 @@ h3 {
     text-align: center;
     color: white;
 }
+
+/*--- Address Block Row Grid ---*/
+.address-cards-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 85%;
+    margin: 20px auto 40px auto;
+    flex-wrap: wrap;
+}
+
+.address-card {
+    background-color: #000000;
+    color: #000000;
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+/* Red Circular Number Badge */
+.address-number {
+    width: 45px;
+    height: 45px;
+    background-color: #e63946;
+    color: #000000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+/* Text Overrides inside White Card Containers */
+.address-text {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.3;
+}
+
+.address-text strong {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 3px;
+    color: #ffffff;
+}
+
+.address-text p {
+    color: #ffffff !important;
+    font-size: 12px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: left !important;
+}
+
+.address-text .tel-text {
+    margin-top: 5px !important;
+    font-weight: 500;
+}
+
+/* Responsiveness for small screens */
+@media (max-width: 768px) {
+    .address-cards-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .address-card {
+        width: 100%;
+        max-width: 320px;
+    }
+}
+
+/*--- SBO Levels Matrix Table Styles ---*/
+.coursepage-col-full {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.table-responsive-container {
+    width: 100%;
+    overflow-x: auto; /* Ensures seamless mobile scrolling if screen size is narrow */
+    margin: 30px auto 40px auto;
+}
+
+.sbo-matrix-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Poppins', sans-serif;
+    background-color: #dcdcdc; /* Light background behind table segments */
+    color: #000000;
+    text-align: left;
+    font-size: 14px;
+}
+
+/* Header Banner Configuration */
+.sbo-matrix-table thead tr {
+    background-color: #deb887; /* Light golden ochre style color matched from source */
+    color: #000000;
+}
+
+.sbo-matrix-table th {
+    padding: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    border-bottom: 3px solid #000000;
+}
+
+/* Table body positioning adjustments */
+.sbo-matrix-table td {
+    padding: 15px;
+    vertical-align: top;
+    border-bottom: 2px solid #b5b5b5;
+    line-height: 1.4;
+}
+
+/* Distinctive Left Side Sidebar Highlighting */
+.sbo-matrix-table td.level-column {
+    background-color: #deb887;
+    font-weight: 700;
+    width: 15%;
+    border-bottom: 2px solid #000000;
+}
+
+/* Typography styles inside data cards */
+.sbo-matrix-table td strong {
+    font-size: 15px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.sbo-matrix-table td p {
+    color: #111111 !important;
+    padding: 0 !important;
+    font-size: 13.5px !important;
+}
+
+/* Unstyled mini bullet listings inside table nodes */
+.table-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.table-list li {
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 5px;
+    color: #000000;
+    font-size: 13.5px;
+}
+
+.table-list li::before {
+    content: "-";
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+/* Alternating rows for readability matrix structure */
+.sbo-matrix-table tbody tr:nth-of-type(even) {
+    background-color: #ededed;
+}
+
+/*--- Custom Layout for the Overzicht Matrix Blocks ---*/
+.layout-matrix-row {
+    align-items: flex-start !important; /* Prevents heights from stretching unnaturally */
+    gap: 15px;
+}
+
+.matrix-card {
+    background: #111111;
+    padding: 15px 8px !important;
+    border: 1px solid #222222;
+    text-align: left !important;
+}
+
+/* White Address Headers inside columns matching image 3 */
+.address-header-badge {
+    background-color: #000000;
+    color: #e9e9e9;
+    padding: 12px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.address-header-badge .badge-num {
+    background-color: #e63946;
+    color: #000000;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.address-header-badge strong {
+    font-size: 13px;
+    display: block;
+}
+
+.address-header-badge p {
+    color: #f6f6f6 !important;
+    font-size: 11px !important;
+    padding: 0 !important;
+    line-height: 1.3 !important;
+}
+
+/* Scroll wrapper to keep tables perfectly responsive on small mobile displays */
+.table-scroll-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+/* Pure CSS clean data table configuration */
+.program-matrix-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 11px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.program-matrix-table th, 
+.program-matrix-table td {
+    padding: 6px 4px;
+    border: 1px solid #bbbbbb;
+    text-align: left;
+}
+
+.program-matrix-table th {
+    font-weight: 600;
+}
+
+/* Matrix Table Header Color Themes */
+.header-admin-handel { background-color: #e65c00; color: #ffffff; }
+.header-default { background-color: #333333; color: #ffffff; }
+.header-techniek { background-color: #009933; color: #ffffff; }
+
+/* Section Dividing Banner Rows inside Table Bodies */
+.category-row-banner {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.category-row-banner td {
+    padding: 4px 6px !important;
+    color: #ffffff !important;
+}
+
+/* Colors pulled straight from source sheets */
+.admin-banner td { background-color: #e65c00; }
+.handel-banner td { background-color: #ff3300; }
+.green-banner td { background-color: #009933; }
+.yellow-banner td { background-color: #cccc00; color: #000000 !important; }
+.blue-banner td { background-color: #0066cc; }
+
+/* Alternating table rows styling for perfect scanning readability */
+.program-matrix-table tbody tr:not(.category-row-banner):nth-of-type(even) {
+    background-color: #f2f2f2;
+}
+
+/*--- Course Detail Layout Styles ---*/
+.course-detail-section {
+    width: 80%;
+    margin: 50px auto;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    text-align: left;
+}
+
+/* Header Badge Banner Elements */
+.detail-header-banner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.title-badge-green {
+    background-color: #009933;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 25px;
+    z-index: 2;
+}
+
+.arrow-badge-blue {
+    background-color: #41729f;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 6px 20px 6px 35px;
+    margin-left: -20px;
+    position: relative;
+    clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
+    z-index: 1;
+}
+
+/* Split Column Workspace Setup */
+.detail-split-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+/* Inline Flex Rows for Text Next to Images */
+.media-text-row {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 25px;
+}
+
+/* Reverses layout on the second row to alternate positions cleanly */
+.media-text-row.reverse-row {
+    flex-direction: row; 
+}
+
+.media-box {
+    flex-basis: 40%;
+    flex-shrink: 0;
+}
+
+.media-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    display: block;
+    object-fit: cover;
+}
+
+.text-box-inline {
+    flex-basis: 60%;
+}
+
+.text-box-inline p {
+    font-size: 13px !important;
+    line-height: 1.6 !important;
+    padding: 0 !important;
+    color: #e0e0e0 !important;
+}
+
+/* Right Sidebar Requirements Styling */
+.detail-right-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.sidebar-block h4 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+.sidebar-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.sidebar-list li {
+    font-size: 13px;
+    color: #e0e0e0;
+    line-height: 1.4;
+}
+
+.duration-text {
+    font-size: 13px !important;
+    padding: 0 !important;
+    color: #e0e0e0 !important;
+}
+
+/* Highlight Box styled exactly like the green box component in image_972bc2.jpg */
+.green-possibilities-box {
+    background-color: #a3e4d7;
+    color: #000000;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.green-possibilities-box h4 {
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.possibilities-list {
+    padding-left: 20px;
+}
+
+.possibilities-list li {
+    font-size: 12.5px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #111111;
+}
+
+.possibilities-list li:last-child {
+    margin-bottom: 0;
+}
+
+/* Responsive Overrides for Mobile Viewports */
+@media (max-width: 850px) {
+    .detail-split-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .media-text-row, .media-text-row.reverse-row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .media-box {
+        width: 80%;
+        max-width: 300px;
+    }
+}
+
