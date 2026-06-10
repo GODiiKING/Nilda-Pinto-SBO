@@ -84,8 +84,10 @@ nav {
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
+    background-color: #000000; /* Add this line to create the solid black background overlay strip */
+    width: 100%;               /* Ensures the background expands fully to both screen edges */
+    box-sizing: border-box;    /* Prevents the padding from causing layout clipping or side-scrolling */
 }
-
 nav img {
     width: 150px;
 }
@@ -135,6 +137,7 @@ nav img {
 
 .text-box h1 {
     font-size: 62px;
+    color: rgb(120, 33, 33);
 }
 
 .text-box p {
@@ -166,6 +169,13 @@ nav img {
 .para-2 {
     text-align: center;
     color: white; /* Changed from default black to white */
+    margin: 0 auto;       /* Centers the text block on the page */
+    padding: 40px 20px;   /* Adds breathing room on the top, bottom, left, and right */
+}
+
+.para-2 p {
+    max-width: 800px;     /* Prevents ONLY the text from stretching too wide */
+    margin: 0 auto 1px;  /* Centers the text lines and adds spacing below paragraphs */
 }
 
 /*----course----*/
@@ -1045,7 +1055,7 @@ h3 {
 
 /* Highlight Box styled exactly like the green box component in image_972bc2.jpg */
 .green-possibilities-box {
-    background-color: #a3e4d7;
+    background-color: #507d74;
     color: #000000;
     padding: 20px;
     border-radius: 4px;
