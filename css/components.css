@@ -1,0 +1,790 @@
+/* Make sure your welcome text contrasts perfectly over the graffiti asset */
+.text-box {
+    width: 90%;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 62px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+/* Mobile responsive override to ensure the layout remains smooth on mobile touchscreens */
+@media (max-width: 768px) {
+    .text-box h1 {
+        font-size: 32px;
+    }
+    .text-box p {
+        font-size: 16px;
+    }
+}
+
+/*---textbox design---*/
+.text-box {
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 62px;
+    color: rgb(120, 33, 33);
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: white;
+}
+
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+.hero-btn:hover {
+    border: 1px solid red;
+    background: red;
+    transition: 1s;
+}
+
+/*----opening text----*/
+.para-2 {
+    text-align: center;
+    color: white; /* Changed from default black to white */
+    margin: 0 auto;       /* Centers the text block on the page */
+    padding: 40px 20px;   /* Adds breathing room on the top, bottom, left, and right */
+}
+
+.para-2 p {
+    max-width: 800px;     /* Prevents ONLY the text from stretching too wide */
+    margin: 0 auto 1px;  /* Centers the text lines and adds spacing below paragraphs */
+}
+
+.course-col {
+    flex-basis: 31%;
+    background: #111111; /* Changed from light pink #fff3f3 to dark gray for contrast */
+    border-radius: 10px;
+    margin-bottom: 1%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    color: white;
+}
+
+.course-col:hover {
+    box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.2); /* Changed shadow to light glow for dark mode */
+}
+
+.para-1 {
+    color: white; /* Changed from black to white */
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    text-align: center;
+}
+
+.campus-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.campus-col img {
+    width: 100%;
+    display: block;
+}
+
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.facilities-col {
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.facilities-col img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Facilities {
+    text-align: center;
+}
+
+.facilities-col p {
+    padding: 0;
+    color: white; /* Explicitly white */
+}
+
+.facilities-col h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+    color: white; /* Explicitly white */
+}
+
+/*-------call to action---*/
+.cta {
+    margin: 10px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/schoolfrontview.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0; 
+}
+
+.cta h1 {
+    color: white;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.contact-card {
+    background-color: #121212; /* Turned from white to dark charcoal */
+    border: 1px solid #333333;  /* Border added to distinguish against raw black background */
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 4px;
+    min-width: 210px;
+    flex: 1;
+    max-width: 240px;
+    text-align: left;
+}
+
+/* Rounded Colorful Icons */
+.icon-box {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 16px;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+/* Restrict the new images to fit perfectly within the circular icon boxes */
+.icon-box img {
+    width: 60%;  /* Keeps a nice breathing-room margin inside the circle */
+    height: 60%;
+    object-fit: contain;
+}
+
+/* Colored graphic circles stay vibrant */
+.location-icon { background-color: #000000; color: #d94d3c; } 
+.phone-icon    { background-color: #d12e6d; } 
+.email-icon    { background-color: #d12e6d; } 
+.facebook-icon { background-color: #000000; } 
+
+.card-details h3 {
+    font-size: 11px;
+    font-weight: 600;
+    color: #ffffff; /* Inverted header text to white */
+    margin: 0;
+    line-height: 1.2;
+}
+
+.card-details p {
+    font-size: 10px;
+    color: #b0b0b0; /* Light gray for clear subtext readability */
+    margin: 2px 0 0 0;
+    word-break: break-all;
+}
+
+.footer-text {
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+}
+
+.sub-header h1 {
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.about-col {
+    flex-basis: 100%;
+    padding: 30px 2px;
+}
+
+.about-col img {
+    width: 50%;
+}
+
+.about-col h1 {
+    padding-top: 0;
+    text-align: center;
+    color: white;
+}
+
+.about-col p {
+    padding: 15px 0 25px;
+    text-align: left;
+    color: white; /* Explicitly white */
+}
+
+.about-col ul li {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    color: white; /* Explicitly white */
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+
+.steps h2 {
+    color: #ffffff;
+    font-size: 22px; 
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+/* Stylized step text and number tags */
+.step-number {
+    font-size: 1.25rem; 
+    font-weight: 300;
+    line-height: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: lowercase;
+}
+
+.step-number span {
+    font-size: 4rem; 
+    font-weight: 700;
+    margin-top: -5px;
+}
+
+/* Graphic Color Palettes matched exactly from visual source */
+.step-number.orange { color: #f2a154; }
+.step-number.teal   { color: #7bf1dc; }
+.step-number.blue   { color: #5dade2; }
+
+.step-text p {
+    font-size: 13px; 
+    color: #e0e0e0;
+    line-height: 1.5; 
+    padding: 0;
+    margin-bottom: 10px; 
+}
+
+.step-text p strong {
+    font-weight: 700;
+}
+
+.step-list {
+    list-style-type: disc;
+    margin-left: 18px; 
+    margin-top: 5px; 
+}
+
+.step-list li {
+    font-size: 13px; 
+    color: #e0e0e0;
+    margin-bottom: 4px; 
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+    .step-text p {
+        text-align: center;
+    }
+    
+    .step-list {
+        display: inline-block;
+        text-align: left;
+    }
+}
+
+/*----blog-content----*/
+.blog {
+    flex-basis: 65%;
+}
+
+.blog img {
+    width: 100%;
+}
+
+.blog h2 {
+    color: white; 
+    font-weight: 600;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.blog p {
+    color: white; 
+    padding: 0;
+}
+
+.comment-box {
+    border: 1px solid #333333; 
+    margin: 50px 0;
+    padding: 10px 20px;
+    background: #111111; 
+}
+
+.comment-box h3 {
+    text-align: left;
+    color: white;
+}
+
+.comment-from input, .comment-from textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: 1px solid #444444;
+    outline: none;
+    background: #222222; 
+    color: white; 
+}
+
+.comment-from button {
+    margin: 10px 0;
+    color: white; 
+    background: red; 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.location iframe {
+    width: 100%;
+}
+
+.contact-rol {
+    border: 1px solid #333333; 
+    margin: 1px 0;
+    padding: 10px 20px;
+    background: #111111; 
+}
+
+.contact-rol input, .contact-rol textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: 1px solid #444444;
+    outline: none;
+    background: #222222; 
+    color: white; 
+}
+
+.contact-rol button {
+    margin: 10px 0;
+    color: white; 
+    background: red;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact-img {
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+    color: white;
+}
+
+.address-card {
+    background-color: #000000;
+    color: #000000;
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+/* Red Circular Number Badge */
+.address-number {
+    width: 45px;
+    height: 45px;
+    background-color: #e63946;
+    color: #000000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+/* Text Overrides inside White Card Containers */
+.address-text {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.3;
+}
+
+.address-text strong {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 3px;
+    color: #ffffff;
+}
+
+.address-text p {
+    color: #ffffff !important;
+    font-size: 12px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: left !important;
+}
+
+.address-text .tel-text {
+    margin-top: 5px !important;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .address-card {
+        width: 100%;
+        max-width: 320px;
+    }
+}
+
+.sbo-matrix-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Poppins', sans-serif;
+    background-color: #dcdcdc; /* Light background behind table segments */
+    color: #000000;
+    text-align: left;
+    font-size: 14px;
+}
+
+/* Header Banner Configuration */
+.sbo-matrix-table thead tr {
+    background-color: #deb887; /* Light golden ochre style color matched from source */
+    color: #000000;
+}
+
+.sbo-matrix-table th {
+    padding: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    border-bottom: 3px solid #000000;
+}
+
+/* Table body positioning adjustments */
+.sbo-matrix-table td {
+    padding: 15px;
+    vertical-align: top;
+    border-bottom: 2px solid #b5b5b5;
+    line-height: 1.4;
+}
+
+/* Distinctive Left Side Sidebar Highlighting */
+.sbo-matrix-table td.level-column {
+    background-color: #deb887;
+    font-weight: 700;
+    width: 15%;
+    border-bottom: 2px solid #000000;
+}
+
+/* Typography styles inside data cards */
+.sbo-matrix-table td strong {
+    font-size: 15px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.sbo-matrix-table td p {
+    color: #111111 !important;
+    padding: 0 !important;
+    font-size: 13.5px !important;
+}
+
+/* Unstyled mini bullet listings inside table nodes */
+.table-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.table-list li {
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 5px;
+    color: #000000;
+    font-size: 13.5px;
+}
+
+.table-list li::before {
+    content: "-";
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+/* Alternating rows for readability matrix structure */
+.sbo-matrix-table tbody tr:nth-of-type(even) {
+    background-color: #ededed;
+}
+
+.matrix-card {
+    background: #111111;
+    padding: 15px 8px !important;
+    border: 1px solid #222222;
+    text-align: left !important;
+}
+
+/* White Address Headers inside columns matching image 3 */
+.address-header-badge {
+    background-color: #000000;
+    color: #e9e9e9;
+    padding: 12px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.address-header-badge .badge-num {
+    background-color: #e63946;
+    color: #000000;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.address-header-badge strong {
+    font-size: 13px;
+    display: block;
+}
+
+.address-header-badge p {
+    color: #f6f6f6 !important;
+    font-size: 11px !important;
+    padding: 0 !important;
+    line-height: 1.3 !important;
+}
+
+/* Pure CSS clean data table configuration */
+.program-matrix-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 11px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.program-matrix-table th, 
+.program-matrix-table td {
+    padding: 6px 4px;
+    border: 1px solid #bbbbbb;
+    text-align: left;
+}
+
+.program-matrix-table th {
+    font-weight: 600;
+}
+
+/* Matrix Table Header Color Themes */
+.header-admin-handel { background-color: #e65c00; color: #ffffff; }
+.header-default { background-color: #333333; color: #ffffff; }
+.header-techniek { background-color: #009933; color: #ffffff; }
+
+/* Section Dividing Banner Rows inside Table Bodies */
+.category-row-banner {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.category-row-banner td {
+    padding: 4px 6px !important;
+    color: #ffffff !important;
+}
+
+/* Colors pulled straight from source sheets */
+.admin-banner td { background-color: #e65c00; }
+.handel-banner td { background-color: #ff3300; }
+.green-banner td { background-color: #009933; }
+.yellow-banner td { background-color: #cccc00; color: #000000 !important; }
+.blue-banner td { background-color: #0066cc; }
+
+/* Alternating table rows styling for perfect scanning readability */
+.program-matrix-table tbody tr:not(.category-row-banner):nth-of-type(even) {
+    background-color: #f2f2f2;
+}
+
+/* Header Badge Banner Elements */
+.detail-header-banner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.title-badge-green {
+    background-color: #009933;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 25px;
+    z-index: 2;
+}
+
+.arrow-badge-blue {
+    background-color: #41729f;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 6px 20px 6px 35px;
+    margin-left: -20px;
+    position: relative;
+    clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
+    z-index: 1;
+}
+
+.media-box {
+    flex-basis: 40%;
+    flex-shrink: 0;
+}
+
+.media-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    display: block;
+    object-fit: cover;
+}
+
+.text-box-inline {
+    flex-basis: 60%;
+}
+
+.text-box-inline p {
+    font-size: 13px !important;
+    line-height: 1.6 !important;
+    padding: 0 !important;
+    color: #e0e0e0 !important;
+}
+
+/* Right Sidebar Requirements Styling */
+.detail-right-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.sidebar-block h4 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+.sidebar-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.sidebar-list li {
+    font-size: 13px;
+    color: #e0e0e0;
+    line-height: 1.4;
+}
+
+.duration-text {
+    font-size: 13px !important;
+    padding: 0 !important;
+    color: #e0e0e0 !important;
+}
+
+/* Highlight Box styled exactly like the green box component in image_972bc2.jpg */
+.green-possibilities-box {
+    background-color: #507d74;
+    color: #000000;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.green-possibilities-box h4 {
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.possibilities-list {
+    padding-left: 20px;
+}
+
+.possibilities-list li {
+    font-size: 12.5px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #111111;
+}
+
+.possibilities-list li:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 850px) {
+    .media-box {
+        width: 80%;
+        max-width: 300px;
+    }
+}
