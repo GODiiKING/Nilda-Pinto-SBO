@@ -26,52 +26,6 @@
     position: relative;
 }
 
-nav {
-    display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #000000;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-nav img {
-    width: 150px;
-}
-
-.nav-links {
-    flex: 1;
-    text-align: right;
-}
-
-.nav-links ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-}
-
-.nav-links ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 13px;
-}
-
-.nav-links ul li::after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: red;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-
-.nav-links ul li:hover::after {
-    width: 100%;
-}
-
 .course {
     width: 80%;
     margin: auto;
@@ -109,15 +63,6 @@ nav img {
     font-family: 'Poppins', sans-serif;
 }
 
-.contact-cards-container {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
-    max-width: 1100px;
-    margin: 0 auto 25px auto;
-}
-
 .about-us {
     width: 80%;
     margin: auto;
@@ -141,18 +86,6 @@ nav img {
 
 .step-row.step-right {
     grid-template-columns: 2fr 1fr;
-}
-
-.info-banner-container {
-    width: 100%;
-    text-align: center;
-    margin: 20px 0;
-}
-
-.info-banner-container img {
-    width: 100%;
-    max-width: 100%;
-    display: block;
 }
 
 @media (max-width: 768px) {
@@ -183,41 +116,9 @@ nav img {
     padding: 80px 0;
 }
 
-.address-cards-row {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    width: 85%;
-    margin: 20px auto 40px auto;
-    flex-wrap: wrap;
-}
-
-@media (max-width: 768px) {
-    .address-cards-row {
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-.coursepage-col-full {
-    width: 100%;
-    margin-bottom: 30px;
-}
-
-.table-responsive-container {
-    width: 100%;
-    overflow-x: auto;
-    margin: 30px auto 40px auto;
-}
-
 .layout-matrix-row {
     align-items: flex-start !important;
     gap: 15px;
-}
-
-.table-scroll-wrapper {
-    width: 100%;
-    overflow-x: auto;
 }
 
 .course-detail-section {
@@ -242,70 +143,6 @@ nav img {
     }
 }
 
-.course-col {
-    flex-basis: 31%;
-    background: #111111;
-    border-radius: 10px;
-    margin-bottom: 1%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    color: #ffffff;
-}
-
-.course-col:hover {
-    box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.2);
-}
-
-.campus-col {
-    flex-basis: 32%;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    position: relative;
-    overflow: hidden;
-}
-
-.campus-col img {
-    width: 100%;
-    display: block;
-}
-
-.layer {
-    background: transparent;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 0.5s;
-}
-
-.Facilities {
-    text-align: center;
-}
-
-.facilities-col {
-    flex-basis: 31%;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: left;
-}
-
-.facilities-col img {
-    width: 100%;
-    border-radius: 10px;
-}
-
-.facilities-col p, .facilities-col h3 {
-    color: #ffffff;
-}
-
-.facilities-col h3 {
-    margin-top: 16px;
-    margin-bottom: 15px;
-    text-align: left;
-}
-
 .cta {
     margin: 10px auto;
     width: 80%;
@@ -321,67 +158,4 @@ nav img {
     color: white;
     margin-bottom: 40px;
     padding: 0;
-}
-
-.about-col {
-    flex-basis: 100%;
-    padding: 30px 2px;
-}
-
-.about-col img {
-    width: 50%;
-}
-
-.about-col h1 {
-    padding-top: 0;
-    text-align: center;
-    color: #ffffff;
-}
-
-.about-col p {
-    padding: 15px 0 25px;
-    text-align: left;
-    color: #ffffff;
-}
-
-.about-col ul li {
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 22px;
-    color: #ffffff;
-    margin-left: 20px;
-    margin-bottom: 8px;
-}
-
-.blog {
-    flex-basis: 65%;
-}
-
-.blog img {
-    width: 100%;
-}
-
-.blog h2 {
-    color: #ffffff;
-    font-weight: 600;
-    margin: 30px 0;
-    text-align: center;
-}
-
-.blog p {
-    color: #ffffff;
-    padding: 0;
-}
-
-.location iframe {
-    width: 100%;
-}
-
-.contact-img {
-    text-align: center;
-}
-
-.info {
-    text-align: center;
-    color: #ffffff;
 }
