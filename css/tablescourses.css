@@ -1,0 +1,237 @@
+.sbo-matrix-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Poppins', sans-serif;
+    background-color: #dcdcdc;
+    color: #000000;
+    text-align: left;
+    font-size: 14px;
+}
+
+.sbo-matrix-table thead tr {
+    background-color: #deb887;
+    color: #000000;
+}
+
+.sbo-matrix-table th {
+    padding: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    border-bottom: 3px solid #000000;
+}
+
+.sbo-matrix-table td {
+    padding: 15px;
+    vertical-align: top;
+    border-bottom: 2px solid #b5b5b5;
+    line-height: 1.4;
+}
+
+.sbo-matrix-table td.level-column {
+    background-color: #deb887;
+    font-weight: 700;
+    width: 15%;
+    border-bottom: 2px solid #000000;
+}
+
+.sbo-matrix-table td strong {
+    font-size: 15px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.sbo-matrix-table td p {
+    color: #111111 !important;
+    padding: 0 !important;
+    font-size: 13.5px !important;
+}
+
+.table-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.table-list li {
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 5px;
+    color: #000000;
+    font-size: 13.5px;
+}
+
+.table-list li::before {
+    content: "-";
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+.sbo-matrix-table tbody tr:nth-of-type(even) {
+    background-color: #ededed;
+}
+
+.matrix-card {
+    background: #111111;
+    padding: 15px 8px !important;
+    border: 1px solid #222222;
+    text-align: left !important;
+}
+
+.program-matrix-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 11px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.program-matrix-table th, .program-matrix-table td {
+    padding: 6px 4px;
+    border: 1px solid #bbbbbb;
+    text-align: left;
+}
+
+.program-matrix-table th {
+    font-weight: 600;
+}
+
+.header-admin-handel { background-color: #e65c00; color: #ffffff; }
+.header-default { background-color: #333333; color: #ffffff; }
+.header-techniek { background-color: #009933; color: #ffffff; }
+
+.category-row-banner {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.category-row-banner td {
+    padding: 4px 6px !important;
+    color: #ffffff !important;
+}
+
+.admin-banner td { background-color: #e65c00; }
+.handel-banner td { background-color: #ff3300; }
+.green-banner td { background-color: #009933; }
+.yellow-banner td { background-color: #cccc00; color: #000000 !important; }
+.blue-banner td { background-color: #0066cc; }
+
+.program-matrix-table tbody tr:not(.category-row-banner):nth-of-type(even) {
+    background-color: #f2f2f2;
+}
+
+.detail-header-banner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.title-badge-green {
+    background-color: #009933;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 25px;
+    z-index: 2;
+}
+
+.arrow-badge-blue {
+    background-color: #41729f;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 6px 20px 6px 35px;
+    margin-left: -20px;
+    position: relative;
+    clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
+    z-index: 1;
+}
+
+.media-box {
+    flex-basis: 40%;
+    flex-shrink: 0;
+}
+
+.media-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    display: block;
+    object-fit: cover;
+}
+
+.text-box-inline {
+    flex-basis: 60%;
+}
+
+.text-box-inline p {
+    font-size: 13px !important;
+    line-height: 1.6 !important;
+    padding: 0 !important;
+    color: #e0e0e0 !important;
+}
+
+.detail-right-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.sidebar-block h4 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+.sidebar-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.sidebar-list li {
+    font-size: 13px;
+    color: #e0e0e0;
+    line-height: 1.4;
+}
+
+.duration-text {
+    font-size: 13px !important;
+    padding: 0 !important;
+    color: #e0e0e0 !important;
+}
+
+.green-possibilities-box {
+    background-color: #507d74;
+    color: #000000;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.green-possibilities-box h4 {
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.possibilities-list {
+    padding-left: 20px;
+}
+
+.possibilities-list li {
+    font-size: 12.5px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #111111;
+}
+
+.possibilities-list li:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 850px) {
+    .media-box {
+        width: 80%;
+        max-width: 300px;
+    }
+}
