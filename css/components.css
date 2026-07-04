@@ -1,6 +1,6 @@
 .contact-card {
-    background-color: #121212;
-    border: 1px solid #333333;
+    background-color: #000000;
+    border: 1px solid #000000;
     display: flex;
     align-items: center;
     padding: 8px 12px;
@@ -34,8 +34,8 @@
 }
 
 .location-icon { background-color: #000000; color: #d94d3c; }
-.phone-icon { background-color: #d12e6d; }
-.email-icon { background-color: #d12e6d; }
+.phone-icon { background-color: #000000; }
+.email-icon { background-color: #000000; }
 .facebook-icon { background-color: #000000; }
 
 .card-details h3 {
