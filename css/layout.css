@@ -105,10 +105,28 @@
 
 .blog-content {
     width: 80%;
-    margin: auto;
+    margin: 0 auto; /* centers the entire section */
     padding: 1px;
     color: white;
+
+    display: flex;
+    justify-content: center; /* centers all children horizontally */
 }
+
+.blog-content .row {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* centers the .blog div */
+}
+
+.blog-content .blog {
+    text-align: center; /* centers the content inside the blog block */
+}
+
+.comment-box form {
+    text-align: left; /* forces the button to stay left */
+}
+
 
 .location {
     width: 80%;
