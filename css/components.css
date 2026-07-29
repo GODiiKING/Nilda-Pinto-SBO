@@ -157,9 +157,11 @@
 
 .contact-rol {
     border: 1px solid #333333;
-    margin: 1px 0;
+    margin: 50px auto; /* center it like comment-box */
     padding: 10px 20px;
     background: #111111;
+    width: 80%;        /* same width behavior as blog-content */
+    max-width: 600px;  /* prevents stretching */
 }
 
 .address-card {
