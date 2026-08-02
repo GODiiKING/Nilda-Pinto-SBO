@@ -235,3 +235,137 @@
         max-width: 300px;
     }
 }
+
+/* ==========================================================
+   SCOPED MOBILE REDESIGN (ONLY APPLIES TO COURSE.HTML)
+   ========================================================== */
+
+@media screen and (max-width: 768px) {
+
+    /* 1. STACK ROWS AND COLUMNS ON COURSE PAGE */
+    body.course-page .row,
+    body.course-page .layout-matrix-row,
+    body.course-page .detail-split-grid,
+    body.course-page .media-text-row,
+    body.course-page .media-text-row.reverse-row {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        gap: 20px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    body.course-page .course-col,
+    body.course-page .campus-col,
+    body.course-page .matrix-card,
+    body.course-page .detail-left-content,
+    body.course-page .detail-right-sidebar,
+    body.course-page .media-box,
+    body.course-page .text-box-inline {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex-basis: 100% !important;
+        margin: 0 0 15px 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    /* 2. SBO MATRIX TABLE INTO STACKED CARDS */
+    body.course-page .table-responsive-container {
+        width: 100% !important;
+        overflow: visible !important;
+    }
+
+    body.course-page .sbo-matrix-table,
+    body.course-page .sbo-matrix-table tbody,
+    body.course-page .sbo-matrix-table tr,
+    body.course-page .sbo-matrix-table td {
+        display: block !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    body.course-page .sbo-matrix-table thead {
+        display: none !important;
+    }
+
+    body.course-page .sbo-matrix-table tr {
+        margin-bottom: 20px !important;
+        border: 2px solid #000000 !important;
+        border-radius: 8px !important;
+        background-color: #dcdcdc !important;
+        overflow: hidden !important;
+    }
+
+    body.course-page .sbo-matrix-table td.level-column {
+        background-color: #deb887 !important;
+        font-size: 18px !important;
+        font-weight: 700 !important;
+        padding: 12px 15px !important;
+        border-bottom: 2px solid #000000 !important;
+        width: 100% !important;
+    }
+
+    body.course-page .sbo-matrix-table td {
+        padding: 12px 15px !important;
+        border-bottom: 1px solid #b5b5b5 !important;
+    }
+
+    body.course-page .sbo-matrix-table td:last-child {
+        border-bottom: none !important;
+    }
+
+    /* 3. PROGRAM MATRIX CARDS */
+    body.course-page .matrix-card {
+        padding: 15px !important;
+        border-radius: 8px !important;
+    }
+
+    body.course-page .table-scroll-wrapper {
+        width: 100% !important;
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch !important;
+    }
+
+    body.course-page .program-matrix-table {
+        min-width: 500px !important;
+    }
+
+    /* 4. COURSE DETAILS AND BADGES */
+    body.course-page .course-detail-section {
+        margin: 40px 0 !important;
+        padding: 0 10px !important;
+    }
+
+    body.course-page .detail-header-banner {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        align-items: center !important;
+        margin-bottom: 20px !important;
+    }
+
+    body.course-page .title-badge-green {
+        font-size: 16px !important;
+        padding: 10px 15px !important;
+        width: 100% !important;
+        text-align: center !important;
+        box-sizing: border-box !important;
+    }
+
+    body.course-page .arrow-badge-blue {
+        font-size: 14px !important;
+        padding: 8px 15px !important;
+        margin-left: 0 !important;
+        clip-path: none !important;
+        width: 100% !important;
+        text-align: center !important;
+        box-sizing: border-box !important;
+    }
+
+    body.course-page .media-box img {
+        width: 100% !important;
+        max-height: 240px !important;
+        object-fit: cover !important;
+        border-radius: 6px !important;
+    }
+}
