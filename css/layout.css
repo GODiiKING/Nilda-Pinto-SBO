@@ -161,28 +161,64 @@
     }
 }
 
+/* ==========================================
+   CALL TO ACTION BUTTON STYLING
+   ========================================== */
+
 .cta {
     margin: 10px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/schoolfrontview.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/schoolfrontview.png');
     background-position: center;
     background-size: cover;
     border-radius: 10px;
     text-align: center;
-    padding: 100px 0; 
+    padding: 80px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-sizing: border-box;
 }
 
 .cta h1 {
-    color: white;
-    margin-bottom: 40px;
+    color: #ffffff;
+    margin-bottom: 30px;
     padding: 0;
+    width: 100%;
+}
+
+.cta .hero-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 48px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    box-sizing: border-box;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.cta .hero-btn:hover {
+    background: #080808;
+    color: #fcf9f9;
 }
 
 @media (max-width: 700px) {
     .cta {
-        display: flex;
         flex-direction: column;
-        align-items: center;
         gap: 15px;
+        padding: 50px 20px;
+    }
+
+    .cta .hero-btn {
+        width: 80%;
+        max-width: 240px;
     }
 }
